@@ -1,0 +1,31 @@
+{
+	"dataset": [{
+		"records": [{
+			"svrIp": "192.168.200.13",
+			"dbName": "mb_dev_hiep",
+			"message": "1 row(s) affected"
+		}],
+		"datatype": {
+			"svrIp": "text",
+			"dbName": "text",
+			"message": "text"
+		}
+	}, {
+		"records": [{
+			"svrIp": "192.168.200.13",
+			"dbName": "mb_dev_hiep",
+			"message": "1 row(s) affected"
+		}],
+		"datatype": {
+			"svrIp": "text",
+			"dbName": "text",
+			"message": "text"
+		}
+	}],
+	"errors": [{
+		"svrIp": "192.168.200.13",
+		"dbName": "mb_dev_test001atos",
+		"code": "42000",
+		"msg": "SQLSTATE[42000]: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]error is raised"
+	}]
+}

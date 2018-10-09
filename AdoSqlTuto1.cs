@@ -15,6 +15,16 @@ namespace NetCoreTuto.Tuto1
     public class AdoSqlTuto1
     {
         private static readonly HashSet<string> NumberTypeNames = new HashSet<string> { "int", "bigint", "long", "decimal", "money", "commission", "amount" };
+        
+        public class Response {
+            public class Table {
+                Dictionary<string, string> datatype = new Dictionary<string, string>();
+                JArray records;
+            }
+            public List<Table> dataset = new List<Table>();
+            public JArray errors;
+        }
+        
 
         public static void exec_request() 
         {
